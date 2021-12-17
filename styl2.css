@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+    margin: 0;
+    background: url("img/bg-1.jpeg") center fixed;
+    background-size: cover;
+}
+
+p {
+    line-height: 1.25;
+}
+
+header {
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+    text-align: center;
+    background-color: #323233;
+    height: 48px;
+    color: #f1f1f1;
+}
+
+footer {
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(50, 50, 51, 0.7);
+    height: 48px;
+    color: #f1f1f1;
+    line-height: 3;
+}
+
+header span {
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 2;
+}
+
+header a {
+    position: absolute;
+    font-size: 1rem;
+    color: #f1f1f1;
+    right: 20px;
+    line-height: 3;
+    cursor: pointer;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    display: inline-block;
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    border-bottom: 2px solid black;
+}
+
+.content {
+    margin: 20px auto;
+    text-align: justify;
+    width: 80%;
+    background-color: rgba(234, 234, 237, 0.5);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    border: 3px solid rgba(0, 0, 0, 0.44);
+    border-radius: 20px;
+    box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+    header {
+        text-align: left;
+    }
+    header span {
+        padding-left: 20px;
+    }
+}
